@@ -37,8 +37,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-		[InlineKeyboardButton('Our Group', url='https://t.me/womrequest')
-	 ],[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/Worldofmovies8"), 
+		[InlineKeyboardButton('How To Use Me? ', url='https://youtu.be/IfgexPB8L6I')
+	 ],[InlineKeyboardButton("Devoloper", url="https://t.me/Royaldwip"), 
              InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝", callback_data="About_msg")]
         ])
     )
